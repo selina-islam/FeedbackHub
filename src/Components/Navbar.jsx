@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
 import { TbWorld } from "react-icons/tb";
 import { Button } from "./ReuseableComponent/Button";
+import { NavLink } from "react-router-dom";
+
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +13,10 @@ function Navbar() {
       <div className="container mx-auto flex md:justify-around justify-between items-center px-4">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/logo.png" alt="Logo" className="h-10 md:h-13" />
+          <NavLink to='/'>
+            {" "}
+            <img src="/logo.png" alt="Logo" className="h-10 md:h-13" />
+          </NavLink >
         </div>
 
         {/* Search Bar - Hidden on Mobile */}

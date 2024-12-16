@@ -1,14 +1,19 @@
 
+import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './Components/Navbar'
-import { Button } from './Components/ReuseableComponent/Button'
+import SectionMaintain from './Components/HomePage/SectionMaintain'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Button className='bg-green-600'/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={ <SectionMaintain/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

@@ -8,6 +8,11 @@ function Footer() {
           <h1 className="text-[#1E1E1E] text-[20px] font-bold">About</h1>
           <p className="text-[#5E5E5E]">About MyFeedback</p>
           <p className="text-[#5E5E5E]">Investor Relations</p>
+          <p className="text-[#5E5E5E]">Trust & Safety</p>
+          <p className="text-[#5E5E5E]">Content Guidelines</p>
+          <p className="text-[#5E5E5E]">Terms of Service</p>
+          <p className="text-[#5E5E5E]">Privacy Policy</p>
+          <p className="text-[#5E5E5E]">Your Privacy Choices</p>
         </div>
         <div>
           <h1 className="text-[#1E1E1E] text-[20px] font-bold">MyFeedback</h1>
@@ -25,14 +30,14 @@ function Footer() {
             <option className="text-[#5E5E5E] border-none">English</option>
             <option className="text-[#5E5E5E] border-none">Bangla</option>
           </select>
-          <h1 className="text-[#1E1E1E] text-[20px] font-bold">Countries</h1>
+          <h1 className="text-[#1E1E1E] text-[20px] font-bold mt-8">Countries</h1>
           <select name="" id="">
             <option className="text-[#5E5E5E] border-none">Japan</option>
             <option className="text-[#5E5E5E] border-none">UK</option>
           </select>
         </div>
       </div>
-            
+
       <p className="font-roboto font-semibold text-sm leading-4 text-EerieBlack1E text-center  py-4  md:px-3">
         Copyright © Septembre 2023 myfeedback, designed by scott
       </p>

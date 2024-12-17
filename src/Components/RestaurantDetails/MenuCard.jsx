@@ -1,5 +1,4 @@
-import Buttons from "../common/Buttons";
-
+import { Button } from "../ReuseableComponent/Button";
 const MenuCard = () => {
   return (
     <div className="relative w-[100%] shadow-lg shadow-black p-3 rounded-lg">
@@ -11,14 +10,14 @@ const MenuCard = () => {
           Menu Bella Italia
         </h1>
         <div className="flex justify-center my-4">
-          <Buttons
+          <Button
             className={
               "bg-white border border-[#D3D3D3] flex items-center justify-center gap-4 text-EerieBlack w-fit hover:bg-gray-200"
             }
           >
             <img src="/download.png" alt="" />
             Dowload this menu
-          </Buttons>
+          </Button>
         </div>
       </div>
     </div>

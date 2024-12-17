@@ -1,5 +1,5 @@
 // import { Slash } from "lucide-react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Button } from "../ReuseableComponent/Button";
 import SortCard from "../ReuseableComponent/Sorting";
@@ -31,7 +31,7 @@ const AllRestaurant = () => {
     setIsOpen(!isOpen);
   };
   const nextPage = () => {
-    return navigate("/BellaItalia");
+    return navigate("/restaurantDetails");
   };
   const sortByRating = () => {
     const sorted = [...sortedProducts].sort((a, b) => b.star - a.star);

@@ -4,7 +4,9 @@ import MyFeedback from './MyFeedback'
 import FirstCarousel from './FirstCarousel'
 import Trends from './Trends';
 import Reviews from './Review/Reviews';
-import AllRestaurant from '../Restuarant/Restaurant';
+import Hero from '../RestaurantDetails/Hero';
+
+
 function SectionMaintain() {
   return (
     <>
@@ -13,6 +15,8 @@ function SectionMaintain() {
       <MyFeedback />
       <Trends />
       <Reviews />
+      <Hero />
+     
     </>
   );
 }

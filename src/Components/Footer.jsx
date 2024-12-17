@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <footer className="border-t-2 ">
-      <div className="flex flex-col md:flex-row justify-around py-10 md:px-60 text-center md:text-start gap-8">
+      <div className="flex flex-col md:flex-row justify-around my-10 md:px-60 text-center md:text-start gap-8">
         <div>
           <h1 className="text-[#1E1E1E] text-[20px] font-bold">About</h1>
           <p className="text-[#5E5E5E]">About MyFeedback</p>

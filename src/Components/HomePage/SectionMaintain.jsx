@@ -1,14 +1,16 @@
 import React from 'react'
 import AllTopic from './AllTopic'
 import MyFeedback from './MyFeedback'
-
+import FirstCarousel from './FirstCarousel'
 function SectionMaintain() {
   return (
-          <>
+    <>
       <AllTopic />
-      <MyFeedback/>
-          </>
-  )
+
+      <FirstCarousel />
+      <MyFeedback />
+    </>
+  );
 }
 
 export default SectionMaintain

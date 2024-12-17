@@ -15,7 +15,7 @@ function MyFeedback() {
                   The lorem ipsum is, in printing, a series of meaningless words
                   used temporarily to calibrate a layout.
                 </p>
-                <Button />
+                <Button>Explore MyFeedback business</Button>
               </div>
               {/* right side */}
               <div className="p-5">

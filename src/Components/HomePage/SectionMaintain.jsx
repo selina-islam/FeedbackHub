@@ -3,7 +3,8 @@ import AllTopic from './AllTopic'
 import MyFeedback from './MyFeedback'
 import FirstCarousel from './FirstCarousel'
 import Trends from './Trends';
-import Reviews from './Review/ReviewCard';
+import Reviews from './Review/Reviews';
+import AllRestaurant from '../Restuarant/Restaurant';
 function SectionMaintain() {
   return (
     <>
@@ -11,7 +12,7 @@ function SectionMaintain() {
       <FirstCarousel />
       <MyFeedback />
       <Trends />
-      <Reviews/>
+      <Reviews />
     </>
   );
 }

@@ -1,6 +1,6 @@
 
 import { cn } from "../../lib/utils";
-export const Button = ({ className }) => {
+export const Button = ({children, className }) => {
         return (
           <button
             className={cn(
@@ -8,7 +8,7 @@ export const Button = ({ className }) => {
               className
             )}
           >
-            MyFeedback for business
+           {children}
           </button>
         );
 }

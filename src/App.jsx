@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import SectionMaintain from './Components/HomePage/SectionMaintain'
 import Footer from './Components/Footer'
+import AllRestaurant from './Components/Restuarant/Restaurant'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/' element={ <SectionMaintain/>} />
+          <Route path='/' element={<SectionMaintain />} />
+          <Route path='/restuarant' element={ <AllRestaurant/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
